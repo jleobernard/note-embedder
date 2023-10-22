@@ -1,0 +1,16 @@
+{
+  "name": "embed",
+  "version": "1.0.0",
+  "description": "Calculate multilingual sentence embeddings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx functions-framework --target=embed "
+  },
+  "author": "Junior BERNARD",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.2.1",
+    "cohere-ai": "^6.2.2"
+  }
+}
